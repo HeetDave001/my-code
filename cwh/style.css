@@ -1,0 +1,51 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Playwrite BE VLG", cursive;
+   font-optical-sizing: auto;
+ }
+ 
+ .container{
+    max-width: 80%;
+    padding: 64%;
+    margin: auto;
+ }
+
+ .container h3, p{
+    text-align: center;
+    width: 35px;
+ }
+
+ input ,textarea{
+    border: solid black;
+    border-radius: 6px;
+    outline: none;
+    font-size: 45px;
+    width: 80%;
+    margin: 11px 0px;
+    padding: 7px;
+ } 
+
+ .form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .btn{
+    color: white;
+    background-color: rgb(43, 43, 131);
+    padding: 15px 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+ }
+ .gf{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.8;
+ }
